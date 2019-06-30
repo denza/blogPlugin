@@ -1,0 +1,30 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-param-reassign": 0,
+    "comma-dangle": 0,
+    "consistent-return": 0,
+    "import/extensions": false,
+    "import/no-duplicates": false,
+    "import/no-named-as-default-member": false,
+    "import/no-named-as-default": false,
+    "react/jsx-filename-extension": false,
+    "react/jsx-one-expression-per-line": false,
+    "react/jsx-closing-bracket-location": false,
+    "react/prop-types": false,
+    "jsx-a11y/label-has-for": false,
+    "jsx-a11y/label-has-associated-control": false
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "extensions": [".ts", ".js"]
+      }
+    }
+  }
+}

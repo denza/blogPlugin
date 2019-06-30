@@ -1,0 +1,23 @@
+{
+  "author":"Denis Besic",
+  "pluginName": "blogPlugin",
+  "pluginDescription": "BuildFire plugin for Blog",
+  "supportEmail":"besicdenis@gmail.com",
+  "control": {
+    "content":{
+      "enabled":true
+    },
+    "design":{
+      "enabled":true
+    },
+    "settings":{
+      "enabled":true
+    }
+  },
+  "widget":{
+    "enabled":true
+  },
+  "features" : [],
+  "webpack": "8080",
+  "languages" : ["en"]
+}
